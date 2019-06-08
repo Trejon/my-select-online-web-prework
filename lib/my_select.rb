@@ -9,4 +9,4 @@ def my_select(collection)
 end  
 myArray
 end 
-
+my_select(numbers) { |num| num.even? }
